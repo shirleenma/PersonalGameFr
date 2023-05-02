@@ -8,6 +8,8 @@ public class ItemCollector : MonoBehaviour
 {
     private int watermelons = 0;
     public TextMeshProUGUI watermelonsText;
+
+    [SerializeField] private AudioSource collectionSoundEffect;
     
 
     
@@ -15,6 +17,7 @@ public class ItemCollector : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Watermelon"))
         {
+            collectionSoundEffect.Play();
             Destroy(collision.gameObject);
             watermelons++;
             watermelonsText.text = "Watermelons: " + watermelons;
