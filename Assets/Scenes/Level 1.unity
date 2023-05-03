@@ -1748,7 +1748,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 47f45ef7b5767674393cc401fc325705, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.2
+  m_Volume: 0.034
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -2429,6 +2429,37 @@ RectTransform:
   m_AnchoredPosition: {x: -28, y: -54}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1781498542 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2214816652264513005, guid: d8f9ad7a41d5341218c60d8bb5add199, type: 3}
+  m_PrefabInstance: {fileID: 2214816652990441469}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1781498547
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781498542}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4}
+  m_EdgeRadius: 0
 --- !u!4 &1803142437 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3961162814507494980, guid: 4db538078fae24343aca26ae87966481, type: 3}
@@ -32408,7 +32439,7 @@ MonoBehaviour:
   jumpSoundEffect: {fileID: 2042753602}
 --- !u!95 &2042753599
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -32425,7 +32456,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &2042753600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35761,6 +35793,10 @@ PrefabInstance:
     - target: {fileID: 2214816652264513005, guid: d8f9ad7a41d5341218c60d8bb5add199, type: 3}
       propertyPath: m_Name
       value: Finish
+      objectReference: {fileID: 0}
+    - target: {fileID: 2214816652264513006, guid: d8f9ad7a41d5341218c60d8bb5add199, type: 3}
+      propertyPath: m_Volume
+      value: 0.622
       objectReference: {fileID: 0}
     - target: {fileID: 2214816652264513007, guid: d8f9ad7a41d5341218c60d8bb5add199, type: 3}
       propertyPath: m_RootOrder
