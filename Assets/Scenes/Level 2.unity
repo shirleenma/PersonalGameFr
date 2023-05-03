@@ -465,8 +465,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -71.458496, y: -33.533386}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 529, y: 183}
+  m_SizeDelta: {x: 200, y: 43.0049}
   m_Pivot: {x: 3.7627075, y: 5.569332}
 --- !u!1 &185124888
 GameObject:
@@ -2354,7 +2354,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1161366367
 PrefabInstance:
@@ -33067,7 +33067,7 @@ MonoBehaviour:
   jumpSoundEffect: {fileID: 2042753602}
 --- !u!95 &2042753599
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -33084,7 +33084,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &2042753600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33547,7 +33548,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2074559098
 GameObject:
