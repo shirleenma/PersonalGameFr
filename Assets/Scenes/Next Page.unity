@@ -310,8 +310,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6, y: -91}
-  m_SizeDelta: {x: 334.2139, y: 200.95}
+  m_AnchoredPosition: {x: -222, y: -50}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1213991162
 MonoBehaviour:
@@ -411,10 +411,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 36153391842b54cd6a1c25005d42e934, type: 3}
-    m_FontSize: 10
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 1
+    m_MinSize: 2
     m_MaxSize: 200
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -422,7 +422,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Next
+  m_Text: START
 --- !u!222 &1276772455
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -651,7 +651,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -62, y: 69}
+  m_AnchoredPosition: {x: -63, y: 42}
   m_SizeDelta: {x: 812.5869, y: 56.3944}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1853456835
@@ -674,7 +674,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Jumpyman has been teleported\ninto a game! \n\n"
+  m_text: ' Jumpyman needs to go home!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 06db1c74f5304463d84f635e77d87687, type: 2}
   m_sharedMaterial: {fileID: 3581047617776831462, guid: 06db1c74f5304463d84f635e77d87687, type: 2}
@@ -701,8 +701,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -789,7 +789,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 6}
+  m_AnchoredPosition: {x: -1.3500061, y: -1.0100098}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1929160012
@@ -868,8 +868,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 389.68976, y: -199.15305}
-  m_SizeDelta: {x: 125.2329, y: 30.8818}
+  m_AnchoredPosition: {x: -0.000011444, y: -78.594}
+  m_SizeDelta: {x: 196.6124, y: 53.1879}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1965569516
 MonoBehaviour:
