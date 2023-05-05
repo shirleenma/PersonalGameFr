@@ -422,7 +422,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: START
+  m_Text: QUIT
 --- !u!222 &1276772455
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -674,7 +674,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ' Jumpyman Goes Home'
+  m_text: GAME COMPLETED
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 06db1c74f5304463d84f635e77d87687, type: 2}
   m_sharedMaterial: {fileID: 3581047617776831462, guid: 06db1c74f5304463d84f635e77d87687, type: 2}
@@ -843,6 +843,7 @@ GameObject:
   - component: {fileID: 1965569518}
   - component: {fileID: 1965569517}
   - component: {fileID: 1965569516}
+  - component: {fileID: 1965569520}
   m_Layer: 5
   m_Name: 'Button '
   m_TagString: Untagged
@@ -977,3 +978,15 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1965569514}
   m_CullTransparentMesh: 1
+--- !u!114 &1965569520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965569514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55944f8ea70754bbeaa7d4ccb6769ac7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
