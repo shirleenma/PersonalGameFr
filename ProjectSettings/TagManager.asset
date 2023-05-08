@@ -43,9 +43,15 @@ TagManager:
   - name: Background
     uniqueID: 2239923365
     locked: 0
+  - name: Over Background
+    uniqueID: 1811235719
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
   - name: Terrain
     uniqueID: 4229304637
+    locked: 0
+  - name: Obstacles
+    uniqueID: 1224166095
     locked: 0
