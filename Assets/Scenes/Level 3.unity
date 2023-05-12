@@ -4411,11 +4411,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3961162814507494978, guid: 4db538078fae24343aca26ae87966481, type: 3}
       propertyPath: m_Size.x
-      value: 0.9453256
+      value: 0.83417326
       objectReference: {fileID: 0}
     - target: {fileID: 3961162814507494978, guid: 4db538078fae24343aca26ae87966481, type: 3}
       propertyPath: m_Offset.x
-      value: -0.027337179
+      value: -0.08291337
       objectReference: {fileID: 0}
     - target: {fileID: 3961162814507494979, guid: 4db538078fae24343aca26ae87966481, type: 3}
       propertyPath: m_Name
@@ -35080,7 +35080,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2042753593}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.61, y: 0.21, z: 0}
+  m_LocalPosition: {x: -2.6, y: -0.07, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
