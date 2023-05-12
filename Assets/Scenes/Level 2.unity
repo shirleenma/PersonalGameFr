@@ -1820,6 +1820,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3961162814507494978, guid: 4db538078fae24343aca26ae87966481, type: 3}
+      propertyPath: m_Size.x
+      value: 0.901207
+      objectReference: {fileID: 0}
+    - target: {fileID: 3961162814507494978, guid: 4db538078fae24343aca26ae87966481, type: 3}
+      propertyPath: m_Size.y
+      value: 0.3567562
+      objectReference: {fileID: 0}
+    - target: {fileID: 3961162814507494978, guid: 4db538078fae24343aca26ae87966481, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.049396515
+      objectReference: {fileID: 0}
+    - target: {fileID: 3961162814507494978, guid: 4db538078fae24343aca26ae87966481, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.3216219
+      objectReference: {fileID: 0}
     - target: {fileID: 3961162814507494979, guid: 4db538078fae24343aca26ae87966481, type: 3}
       propertyPath: m_Name
       value: Spikes (6)
